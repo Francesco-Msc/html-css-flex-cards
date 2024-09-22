@@ -13,14 +13,49 @@ body{
     padding: 0 260px;
 }
 
+/************
+HEADER
+************/
+
 h1{
     text-align: center;
     padding: 40px;
     color: #E53170;
 }
 
+/************
+CONTENT
+************/
+
 .paragph{
     text-align: center;
     display: inline-block;
     margin: 20px 0 50px 0;
+}
+
+/************
+GRID
+************/
+
+.container{
+    max-width: 100%;
+    /* background-color: green; */
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    width: calc(100%/ 3 );
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+
+
+
+.col > div{
+    background-color: red;
+    height: 100px;
 }
