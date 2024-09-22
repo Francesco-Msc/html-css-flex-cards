@@ -10,10 +10,17 @@ RESET
 
 body{
     font-family: "Fredoka", sans-serif;
+    padding: 0 260px;
 }
 
 h1{
     text-align: center;
     padding: 40px;
     color: #E53170;
+}
+
+.paragph{
+    text-align: center;
+    display: inline-block;
+    margin: 20px 0 50px 0;
 }
