@@ -1,0 +1,19 @@
+/************
+RESET
+************/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Fredoka", sans-serif;
+}
+
+h1{
+    text-align: center;
+    padding: 40px;
+    color: #E53170;
+}
