@@ -10,7 +10,8 @@ RESET
 
 body{
     font-family: "Fredoka", sans-serif;
-    padding: 0 260px;
+    width: 70%;
+    margin: 0 auto;
 }
 
 /************
@@ -39,7 +40,6 @@ GRID
 
 .container{
     max-width: 100%;
-    /* background-color: green; */
 }
 
 .row{
@@ -49,13 +49,39 @@ GRID
 
 .col{
     width: calc(100%/ 3 );
-    /* border: 1px solid black; */
     padding: 20px;
 }
 
 
 
-.col > div{
-    background-color: red;
+.card{
+    background-color: black;
     height: 100px;
+    min-width: 300px;
+    display: flex;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.card > img{
+    height: 100%;
+    margin-right: 15px;
+}
+
+.details{
+    margin: 10px 0;
+    color: white;
+}
+
+.name{
+    text-transform: uppercase;
+}
+
+.job{
+    font-weight: normal;
+    display: block;
+    margin: 10px 0;
+}
+
+a{
+    text-decoration: none;
 }
